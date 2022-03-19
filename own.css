@@ -1,0 +1,235 @@
+.top{
+    background-color: darkred;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.circle{
+    background-color: white;
+    border-radius:50%;
+    border-style: solid;
+    height:50px;
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: darkred;
+    font-size:xx-large;
+    font-weight:bold;
+    margin-left: 60px;
+}
+.button-container{
+    display:flex;
+    align-items: center;
+    width: 320px;
+    justify-content:space-around;
+}
+.login{
+    background-color: darkred;
+    color:white;
+    font-size: medium;
+}
+.account{
+    background-color: darkred;
+    color: white;
+    font-size: medium;
+}
+.heading{
+    font-family: Poppins; 
+    color:#192f60;
+    font-size:xx-large;
+    font-display:inherit;
+    margin-left: 113px;
+}
+.filter-options{
+    margin-left:80px ;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.16);/* DOUBT*/
+    background-color: white;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 500px;
+    display: flexbox;
+}
+.filter-heading{
+    font-family: Poppins;
+    font-size: 25px;
+    font-style:normal;
+    text-align: left;
+    color: #192f60;
+    font-weight: bolder;
+}
+.select-location{
+    padding-top: 20px;
+    font-size: large;
+    font-weight: bolder;
+    color: #192f60;
+    text-align: left;
+}
+.Rectangle{
+    width: 140px;
+    height: 20px;
+    border:solid 3px grey;
+}
+.Cuisine {
+    font-family: Poppins;
+    font-size: 18px;
+    text-align: left;
+    color: #192f60;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+.checkbox-items {
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: left;
+    color: #8c96ab;
+    font-weight: normal;
+}
+.Item {
+    width: 100%;
+    height: 242px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-bottom: 15px;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.rest-name {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: #192f60;
+    margin-top: 20px;
+}
+.rest-location {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #192f60;
+}
+.rest-address {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    color: #636f88;
+}
+.Bakery {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    color: #636f88;
+}
+.big{
+    display: inline-block;
+    width:60%;
+    position: absolute;
+    margin-left: 5%;
+    
+}
+.vertical{
+    vertical-align: top;
+}
+.box  {
+    display: inline-block;
+    width: 28%;
+}
+.big-item {
+    display: inline-block;
+    width: 68%;
+}
+
+.small-item {
+    display: inline-block;
+    width: 28%;
+}
+
+.margin-left {
+    margin-left: 7%;
+    margin-top: 40px;
+}
+.pagination{
+    margin-left: 275px;
+    margin-top: 20px;
+}
+.pagination a {
+    color: gray;
+    float: left;
+    padding: 8px 16px;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 2px;
+}
+@media only screen and (max-width: 600px) {
+    .Item {
+        width: 160%;
+        height: 200px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 15px;
+    }
+    .filter-options {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        min-width: 450px;
+    }
+    .big {
+        display: block;
+        width: 68%;
+    }
+    .small {
+        display: block;
+        width: 28%;
+    }
+    .big-item {
+        display: inline-block;
+        width: 68%;
+    }
+    .small-item {
+        display: inline-block;
+        width: 28%;
+    }
+    .rest-name {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: left;
+        color: #192f60;
+        padding-left: 35px;
+    }
+    .rest-location {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+        color: #192f60;
+        padding-left: 35px;
+    }
+    .rest-address {
+        font-family: Poppins;
+        font-size: 16px;
+        text-align: left;
+        color: #636f88;
+        padding-left: 35px;
+    }
+    .pagination {
+        display: inline-block;
+        margin-top: 25px;
+        width: 380px;
+        margin-left: 50px;
+    }
+}
